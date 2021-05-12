@@ -18,5 +18,11 @@ double l1 =Math.round( sqrt( ((x2-x1) * (x2-x1)) + ((y2-y1) * (y2-y1)) ));
 double l2 =Math.round( sqrt( ((x4-x3) * (x4-x3)) + ((y4-y3) * (y4-y3)) ));
  System.out.println("l2:" +l2);
 
-   }
+  if ( l1 == l2) {
+     System.out.println("l1 is equal to l2");
+  }
+  else{
+     System.out.println("l1 is not equal to l2");
+  }
+ }
 }
